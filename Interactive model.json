@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cool maths",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "subtractionintent",
+                    "slots": [],
+                    "samples": [
+                        "do subtraction",
+                        "subtraction"
+                    ]
+                },
+                {
+                    "name": "additionintent",
+                    "slots": [],
+                    "samples": [
+                        "do addition",
+                        "addition"
+                    ]
+                },
+                {
+                    "name": "multiplicationintent",
+                    "slots": [],
+                    "samples": [
+                        "do multiplication",
+                        "multiplication"
+                    ]
+                },
+                {
+                    "name": "divisionintent",
+                    "slots": [],
+                    "samples": [
+                        "do division",
+                        "division"
+                    ]
+                },
+                {
+                    "name": "answerintent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{number}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
